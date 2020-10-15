@@ -11,6 +11,8 @@ public:
   TMatrix(int s = 10);
   TMatrix(const TMatrix &mt);                   // копирование
   TMatrix(const TVector<TVector<ValType>> &mt); // преобразование типа
+  ~TMatrix();
+
   bool operator==(const TMatrix &mt) const;     // сравнение
   bool operator!=(const TMatrix &mt) const;     // сравнение
   TMatrix &operator=(const TMatrix &mt);        // присваивание
