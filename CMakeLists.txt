@@ -17,6 +17,6 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR}/MatrixLib) #Добавляем �
 add_subdirectory(Matrix) #Добавляем директорию с под-CMakeList-ом, и выполняем под-CMakeList
 add_subdirectory(MatrixLib)
 
-add_subdirectory(gtest) 
+add_subdirectory(gtest) #Добавляем директорию с под-CMakeList-ом, и выполняем под-CMakeList
 add_subdirectory(test)
 
